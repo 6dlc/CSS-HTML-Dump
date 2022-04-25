@@ -1,0 +1,96 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.button{
+    background-color: coral;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+}
+#mainHead{
+   background-color: coral;
+   color: white;
+}
+#navBar{
+    background-color: #555;
+    color: white;
+}
+#navBar ul{
+    padding: 0;
+    list-style: none;
+}
+#navBar li{
+    display: inline;
+}
+#navBar a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#showcaseSection{
+    background-image: url('showcaseBackground.jpg');
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+#showcaseSection h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+#showcaseArticle{
+    float: right;
+    padding: 10px;
+    font-weight: bold;
+}
+#mainSection{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+#sideBar{
+    float: right;
+    width: 30%;
+    background: #333;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#mainFoot{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media(max-width:600px){
+    #mainSection{
+        width: 100%;
+        float: none;
+    }
+    #sideBar{
+        width: 100%;
+        float: none;
+    }
+}
