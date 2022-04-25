@@ -10,8 +10,11 @@ body {
 
 .flexContainer {
     display: flex;
+    flex-direction: column;
     background-color: #f4f4f4;
-    justify-content: end;
+    /* Values are always on the main axis */
+    justify-content: space-between;
+    align-items: start;
 }
 
 .item {
