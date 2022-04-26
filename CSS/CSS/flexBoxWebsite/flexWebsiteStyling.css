@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    line-height: 1.5em;
+    color: #333;
+    background-color: #a1c3ff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+#navBar {
+  background: #3474e6; 
+  color: white;
+  height: 60px;
+}
+
+#navBar #navHead {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#navBar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#navBar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#navHead {
+    padding-top: 10px;
+    font-size: 30px;
+    align-items: flex-start;
+}
+
+#navBar ul {
+    display: flex;
+}
+
+#navBar ul li {
+    margin-left: 20px;
+}
+
+#navBar a:hover {
+    color: lightblue;
+}
+
+.mainHead {
+    padding: 20px;
+    background: #0151cc;
+    font-size: 30px;
+}
+
+.mainHead p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mainHead h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
