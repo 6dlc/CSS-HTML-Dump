@@ -82,11 +82,21 @@ h2 {
 
 .mainHead p {
     font-size: 25px;
-    font-weight: bold;
+    line-height: 1.2em;
     color: #fff;
 }
 
 .mainHead h1 {
-    font-size: 30px;
-    padding-bottom: 10px;
+    font-size: 3rem;
+    line-height: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mainHead img {
+    max-width: 400px;
+}
+
+#mainHead .container {
+    display: flex;
 }
