@@ -88,7 +88,7 @@ h2 {
 
 .mainHead h1 {
     font-size: 3rem;
-    line-height: 1.2em;
+    line-height: 1.2;
     font-weight: bold;
     color: #fff;
 }
@@ -97,6 +97,7 @@ h2 {
     max-width: 400px;
 }
 
-#mainHead .container {
+.mainHead .container {
     display: flex;
+    align-items: center;
 }
