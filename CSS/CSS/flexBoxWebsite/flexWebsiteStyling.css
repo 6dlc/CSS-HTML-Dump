@@ -100,4 +100,9 @@ h2 {
 .mainHead .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.boxes .container {
+    display: flex;
 }
