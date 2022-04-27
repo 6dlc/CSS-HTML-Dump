@@ -103,6 +103,18 @@ h2 {
     justify-content: space-between;
 }
 
-.boxes .container {
+.cards .container {
     display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    flex: 1;
+    background: #0a51cc;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
 }
