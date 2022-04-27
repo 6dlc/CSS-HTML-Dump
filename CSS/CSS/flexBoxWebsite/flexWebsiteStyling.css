@@ -122,3 +122,16 @@ h2 {
 .card i {
     margin-right: 5px;
 }
+
+@media(max-width: 768px) {
+    .mainHead .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .cards .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
